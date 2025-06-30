@@ -104,7 +104,7 @@ One-click deployment to Vercel using `vercel.json` configuration. Simply connect
 
 ## Live URL
 
-Will be available after deployment: [https://beyond-career.vercel.app](https://beyond-career.vercel.app)
+[https://beyond-career-landing-page-eight.vercel.app/](https://beyond-career-landing-page-eight.vercel.app/)
 
 ## Built With
 
