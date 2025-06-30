@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://beyond-career.vercel.app/sitemap.xml
