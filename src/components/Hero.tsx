@@ -99,7 +99,7 @@ const Hero = () => {
       // className="relative h-auto min-h-[70vh] sm:min-h-screen pt-16 sm:pt-20 flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-purple-900 dark:from-slate-950 dark:via-blue-950 dark:to-purple-950"
       // className="relative h-auto min-h-[90vh] sm:min-h-[80vh] md:min-h-screen pt-16 sm:pt-20 flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-purple-900 dark:from-slate-950 dark:via-blue-950 dark:to-purple-950"
       className="relative h-auto min-h-[90vh] sm:min-h-[80vh] md:min-h-screen pt-16 sm:pt-20 flex items-center justify-center overflow-hidden bg-cover bg-center"
-style={{ backgroundImage: "url('/public/heroBg.webp')" }}
+style={{ backgroundImage: "url('./heroBg.webp')" }}
       role="banner"
       aria-label="Hero section with company introduction"
     >
