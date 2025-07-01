@@ -46,6 +46,8 @@ npm run preview
 
 ---
 ## 🏗️ Project Structure
+
+```bash
 ├── public/
 ├── src/
 │   ├── components/            # Ui, About, Contact, Hero, Footer, etc.
@@ -58,7 +60,7 @@ npm run preview
 ├── package.json, bun.lockb, tsconfig.*.json
 ├── tailwind.config.ts, vite.config.ts, postcss.config.js
 └── vercel.json, eslint.config.js
-
+```
 
 ## Design & Customization
 
