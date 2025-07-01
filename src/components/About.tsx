@@ -77,7 +77,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {features.map((feature, index) => (
             <div
               key={index}
@@ -87,12 +87,12 @@ const About = () => {
               style={{ transitionDelay: `${index * 100}ms` }}
             >
               <div className="flex items-center mb-4">
-                <feature.icon className={`w-8 h-8 ${feature.color} mr-3 group-hover:scale-110 transition-transform duration-300`} />
-                <h3 className="text-xl font-bold text-light-text dark:text-dark-text font-poppins">
+                <feature.icon className={`w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 ${feature.color} mr-3 group-hover:scale-110 transition-transform duration-300`} />
+                <h3 className="text-base sm:text-lg md:text-xl font-bold text-light-text dark:text-dark-text font-poppins">
                   {feature.title}
                 </h3>
               </div>
-              <p className="text-light-subtext dark:text-dark-subtext leading-relaxed">
+              <p className="text-sm sm:text-base text-light-subtext dark:text-dark-subtext leading-relaxed">
                 {feature.description}
               </p>
             </div>
