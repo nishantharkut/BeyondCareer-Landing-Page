@@ -26,25 +26,32 @@ const FeatureSpotlight = () => {
   const features = [
     {
       icon: Search,
-      title: 'SEO Optimization',
-      description: 'Advanced search engine optimization to ensure maximum visibility and reach for your career profile.',
-      details: 'Comprehensive keyword research, meta optimization, and structured data implementation for better search rankings.',
+      title: 'Career Guidance',
+      description: 'Personalized career guidance tailored to your strengths and aspirations.',
+      details: 'Get expert advice on choosing the right path, cracking interviews, and achieving your professional goals.',
       color: 'bg-blue-500'
     },
     {
-      icon: Smartphone,
-      title: 'PWA Support',
-      description: 'Progressive Web App capabilities for seamless mobile experience and offline functionality.',
-      details: 'Service worker implementation, caching strategies, and native app-like performance across all devices.',
+      icon: BarChart3,
+      title: 'Internship Opportunities',
+      description: 'Access to premium internships at top companies and startups.',
+      details: 'Work on real-world projects, build your resume, and gain hands-on experience that sets you apart.',
       color: 'bg-green-500'
     },
     {
-      icon: BarChart3,
-      title: 'Analytics Integration',
-      description: 'Comprehensive analytics to track your career progress and optimize your professional journey.',
-      details: 'Real-time insights, performance metrics, and actionable recommendations to accelerate your growth.',
+      icon: Shield,
+      title: 'Mentorship Programs',
+      description: 'One-on-one mentorship from industry leaders and IIT alumni.',
+      details: 'Receive guidance on technical skills, soft skills, and career planning from seasoned professionals.',
       color: 'bg-purple-500'
-    }
+    },
+    {
+    icon: Globe,
+    title: 'Community Engagement',
+    description: 'Be part of a vibrant community of learners, mentors, and peers.',
+    details: 'Collaborate on projects, participate in events, and grow your network in a supportive ecosystem.',
+    color: 'bg-pink-500'
+  }
   ];
 
   return (
@@ -61,7 +68,7 @@ const FeatureSpotlight = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
           {features.map((feature, index) => (
             <div
               key={index}
