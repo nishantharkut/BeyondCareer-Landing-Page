@@ -30,8 +30,8 @@ const Hero = () => {
       try {
         const centerX = window.innerWidth / 2;
         const centerY = window.innerHeight / 2;
-        const tiltX = (e.clientY - centerY) / centerY * 1.5; // Reduced intensity
-        const tiltY = (e.clientX - centerX) / centerX * 1.5; // Reduced intensity
+        const tiltX = (e.clientY - centerY) / centerY * 2; // Reduced intensity
+        const tiltY = (e.clientX - centerX) / centerX * 2; // Reduced intensity
         setTilt({ x: tiltX, y: tiltY });
       } catch (error) {
         console.warn('Mouse move handler error:', error);
@@ -97,7 +97,9 @@ const Hero = () => {
       // className="relative min-h-[80vh] max-h-[90vh] pt-16 flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-purple-900 dark:from-slate-950 dark:via-blue-950 dark:to-purple-950"
       // className="relative min-h-screen pt-20 flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-purple-900 dark:from-slate-950 dark:via-blue-950 dark:to-purple-950"
       // className="relative h-auto min-h-[70vh] sm:min-h-screen pt-16 sm:pt-20 flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-purple-900 dark:from-slate-950 dark:via-blue-950 dark:to-purple-950"
-      className="relative h-auto min-h-[90vh] sm:min-h-[80vh] md:min-h-screen pt-16 sm:pt-20 flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-purple-900 dark:from-slate-950 dark:via-blue-950 dark:to-purple-950"
+      // className="relative h-auto min-h-[90vh] sm:min-h-[80vh] md:min-h-screen pt-16 sm:pt-20 flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-purple-900 dark:from-slate-950 dark:via-blue-950 dark:to-purple-950"
+      className="relative h-auto min-h-[90vh] sm:min-h-[80vh] md:min-h-screen pt-16 sm:pt-20 flex items-center justify-center overflow-hidden bg-cover bg-center"
+style={{ backgroundImage: "url('/public/heroBg.webp')" }}
       role="banner"
       aria-label="Hero section with company introduction"
     >
