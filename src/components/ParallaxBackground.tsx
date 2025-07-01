@@ -86,7 +86,7 @@ const ParallaxBackground: React.FC = () => {
       />
 
       {/* Floating Particles */}
-      <div className="absolute inset-0">
+      {/* <div className="absolute inset-0">
         {[...Array(40)].map((_, i) => (
           <div
             key={i}
@@ -100,7 +100,7 @@ const ParallaxBackground: React.FC = () => {
             }}
           />
         ))}
-      </div>
+      </div> */}
 
       {/* Grid Pattern */}
       <div
