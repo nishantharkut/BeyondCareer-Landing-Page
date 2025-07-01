@@ -102,7 +102,18 @@ const TypedText: React.FC = () => {
       <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent font-bold animate-pulse">
         {text}
       </span>
-      <span className="animate-pulse text-blue-400 dark:text-blue-300 ml-2 text-2xl">|</span>
+      <span className="
+      animate-pulse 
+      text-blue-400 dark:text-blue-300 
+      ml-1 sm:ml-2 
+      inline-block
+      w-[2px] h-[1em]
+      sm:w-[2px] sm:h-[1.1em]
+      md:w-[3px] md:h-[1.2em]
+      lg:w-[4px] lg:h-[1.3em]
+      rounded-sm
+      transition-all duration-10
+      ">|</span>
       <span
         className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent opacity-50 blur-sm animate-pulse"
         aria-hidden="true"
